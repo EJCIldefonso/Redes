@@ -15,10 +15,10 @@ def dijkstra(grafo,inicio,destino):
     caminoMasCorto = {} 
     nodoAnterior = {} 
     nodosSinConocer = grafo 
-    camino = [] 
+    longitud = [] 
     for nodo in nodosSinVer:  
-        caminoMasCorto[nodo] = 999
-    caminoMasCorto[inicio] = 0
+        longitudMasCorto[nodo] = 999
+    longitudMasCorto[inicio] = 0
     while nodosSinConocer:
         minNodo = None
 
